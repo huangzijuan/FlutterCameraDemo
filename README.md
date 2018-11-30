@@ -1,14 +1,14 @@
 # Flutter
 
 ## 许多的跨平台方案比较
-1. 基于WebView的Cordova、AppCan：
-优点：完全继承现代Web开发的所有成果
-缺点：WebView的渲染效率和JavaScript执行性能太差。再加上Android各个系统版本和设备厂商的定制，很难保证所在所有设备上都能提供一致的体验。
-2. HTML+JavaScript渲染成原生控件的React Native、Weex：
-优点：将最终渲染工作交还给了系统，生成对应的自定义原生控件，充分利用原生控件相对于WebView的较高的绘制效率。
-缺点：将框架本身和App开发者绑在了系统的控件系统上，不仅框架本身需要处理大量平台相关的逻辑，随着系统版本变化和API的变化，开发者可能也需要处理不同平台的差异，甚至有些特性只能在部分平台上实现，这样框架的跨平台特性就会大打折扣。
-3. Flutter：
-渲染引擎依靠跨平台的Skia图形库来实现，依赖系统的只有图形绘制相关的接口，可以在最大程度上保证不同平台、不同设备的体验一致性，逻辑处理使用支持AOT的Dart语言，执行效率也比JavaScript高得多。
+1. 基于WebView的Cordova、AppCan： </br>
+优点：完全继承现代Web开发的所有成果 </br>
+缺点：WebView的渲染效率和JavaScript执行性能太差。再加上Android各个系统版本和设备厂商的定制，很难保证所在所有设备上都能提供一致的体验。 </br>
+2. HTML+JavaScript渲染成原生控件的React Native、Weex： </br>
+优点：将最终渲染工作交还给了系统，生成对应的自定义原生控件，充分利用原生控件相对于WebView的较高的绘制效率。 </br>
+缺点：将框架本身和App开发者绑在了系统的控件系统上，不仅框架本身需要处理大量平台相关的逻辑，随着系统版本变化和API的变化，开发者可能也需要处理不同平台的差异，甚至有些特性只能在部分平台上实现，这样框架的跨平台特性就会大打折扣。 </br>
+3. Flutter： </br>
+渲染引擎依靠跨平台的Skia图形库来实现，依赖系统的只有图形绘制相关的接口，可以在最大程度上保证不同平台、不同设备的体验一致性，逻辑处理使用支持AOT的Dart语言，执行效率也比JavaScript高得多。 </br>
 
 ## 分层结构
 Flutter控件主要分为两大类，StatelessWidget和StatefulWidget，StatelessWidget用来展示静态的文本或者图片，如果控件需要根据外部数据或者用户操作来改变的话，就需要使用StatefulWidget。
@@ -51,9 +51,10 @@ Dart线程中有一个消息循环机制（event loop）和两个队列（event 
 ![flutter6](/assets/flutter6.png)
 
 ## 其它文档
-Flutter中文网：https://flutterchina.club/
-Flutter插件库：https://pub.dartlang.org/
-API文档：https://docs.flutter.io/
-原生插件：https://github.com/flutter/plugins
+Flutter中文网：https://flutterchina.club/ </br>
+Flutter插件库：https://pub.dartlang.org/ </br>
+API文档：https://docs.flutter.io/ </br>
+原生插件：https://github.com/flutter/plugins </br>
+icon库：http://fluttericon.com/ </br>
 
-相关文章：https://tech.meituan.com/waimai_flutter_practice.html
+相关文章：https://tech.meituan.com/waimai_flutter_practice.html </br>
